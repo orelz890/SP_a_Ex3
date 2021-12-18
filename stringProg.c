@@ -78,7 +78,7 @@ int IsValid(char c){
 
 
 int Atbash(char* w, char* t ,int wordSize, int txtSize){
-    printf("Atbash Sequences : ");
+    printf("Atbash Sequences: ");
 
     int isFirst = 0;
     // Finding the two valid atbash words 
@@ -252,7 +252,7 @@ int Anagram(char * w , char * t, int wordSize,int txtSize){
         i = i+1;
     }
     
-    printf("\n");
+    // printf("\n");
     return 0;
 }
 
